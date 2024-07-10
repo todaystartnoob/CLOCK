@@ -17,6 +17,7 @@ function init() {
     }
 }
 
+
 // 배경 이미지 랜덤
 document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('mainBody').style.backgroundImage = `url("https://picsum.photos/1920/1080?random=${Math.floor(Math.random() * 100)}")`
